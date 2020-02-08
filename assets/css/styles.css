@@ -2814,3 +2814,12 @@ a .last{
   background:#0CBA9F;
 
 }
+
+@media (max-width:700px){
+.carousel-control-prev, .carousel-control-next, .fa .fa-chevron-left, .sr-only{
+ color:green !important;
+height:200% !important;
+margin-top:-100px;
+cursor: pointer;
+}
+}
